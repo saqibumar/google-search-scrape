@@ -430,7 +430,7 @@ class GoogleSpider(scrapy.Spider):
         print('contentType = ',contentType)
 
         request_headers = {
-            'Authorization': 'Basic Mzo5ODUxRjgwODNERTI1Q0QwNUFDOTBDMzI4RjQ3MTFENDlDRURGNDE5OEI1NkIzQTZDQkY2MEY4RjBGMjUzREVD',
+            'Authorization': 'Basic YOUR_AUTH_STRING',
             'Content-Type': contentType
         }
         print(' ==========HEADER========== ')
