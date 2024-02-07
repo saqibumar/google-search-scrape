@@ -406,9 +406,7 @@ class GoogleSpider(scrapy.Spider):
         #request = Request(url, method='POST', body=json.dumps(my_data), headers={'Content-Type':'application/json'} )
         #response = requests.post(request)
         #print(request)
-        #headers={'Content-Type':'application/json', 'Authorization':'Basic NTA6RTAwM0ZDNTM3NUU4QjNCNkQxNjczMUY0QzE3MEMxMDYwNTRGQTgzMENFMjA4QjRDQzkzMTMwNTU5QzcxMjY2RQ=='}
-        #headers={'Content-Type':'application/json', 'Authorization':'Basic NDI4OkY0MjhDMTEyQjhERDI0MjU1NUU4NTAxOTAyNjdCQUMwRDkxQTdFOEZFNkNFNkY3RjZGREI2Nzg0NEYzQzI4Njc='}
-        headers={'Content-Type':'application/json', 'Authorization':'Basic Mzo5ODUxRjgwODNERTI1Q0QwNUFDOTBDMzI4RjQ3MTFENDlDRURGNDE5OEI1NkIzQTZDQkY2MEY4RjBGMjUzREVD'}
+        headers={'Content-Type':'application/json', 'Authorization':'Basic YOUR_AUTH STRING'}
         
         # print(my_data)
         try:
